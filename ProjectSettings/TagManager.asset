@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Base
+  - Trees
+  - Buildings
+  - Building Accessories
   - 
   - 
   - 
@@ -41,3 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Base
+    uniqueID: 2016092823
+    locked: 0
+  - name: Trees
+    uniqueID: 1589853533
+    locked: 0
+  - name: Buildings
+    uniqueID: 3957162065
+    locked: 0
+  - name: Building Accessories
+    uniqueID: 1540386975
+    locked: 0
+  m_RenderingLayers:
+  - Default
