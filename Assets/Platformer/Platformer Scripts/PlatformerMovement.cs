@@ -11,10 +11,10 @@ public class PlatformerMovement : MonoBehaviour
     [SerializeField] private int speed;
     [SerializeField] private float moveInput;
 
-    [Header("Ground Check Stuff")] 
-    [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private Transform groundCheck;
+    [Header("Ground Check Stuff")]
     [SerializeField] private Vector2 groundCheckSize;
+    [SerializeField] private float groundCheckDistance;
+    [SerializeField] private LayerMask groundLayer;
 
     private void Awake()
     {
@@ -25,7 +25,7 @@ public class PlatformerMovement : MonoBehaviour
     {
         if (context.performed && IsGrounded())
         {
-            playerRigidbody.AddForce(new Vector2(0, jumpForce));
+            playerRigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             Debug.Log("Jump" + context.phase);
         }
 
@@ -34,7 +34,7 @@ public class PlatformerMovement : MonoBehaviour
     private bool IsGrounded()
     {
         // Checks for the overlap with anything from the Ground Layer.
-        return Physics2D.OverlapCapsule(groundCheck.position, groundCheckSize, CapsuleDirection2D.Horizontal, 0, groundLayer);
+        return Physics2D.BoxCast(transform.position, groundCheckSize, 0, -transform.up, groundCheckDistance, groundLayer);
     }
 
     public void OnMovement(InputAction.CallbackContext context)
@@ -45,5 +45,10 @@ public class PlatformerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         playerRigidbody.linearVelocity = new Vector2(moveInput * speed, playerRigidbody.linearVelocity.y);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireCube(transform.position -transform.up * groundCheckDistance, groundCheckSize);
     }
 }
