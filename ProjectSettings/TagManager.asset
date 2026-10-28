@@ -53,5 +53,8 @@ TagManager:
   - name: Building Accessories
     uniqueID: 1540386975
     locked: 0
+  - name: Cars
+    uniqueID: 1809217651
+    locked: 0
   m_RenderingLayers:
   - Default
