@@ -87,6 +87,7 @@ Tilemap:
   m_GameObject: {fileID: 8613893074327093488}
   m_Enabled: 1
   m_Tiles:
+<<<<<<< HEAD
   - first: {x: -11, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -147,6 +148,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> origin/minigame/trafficrush
   - first: {x: -12, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -187,6 +190,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< HEAD
   - first: {x: -6, y: -1, z: 0}
     second:
       serializedVersion: 2
@@ -227,6 +231,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> origin/minigame/trafficrush
   - first: {x: -12, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -267,6 +273,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+<<<<<<< HEAD
   - first: {x: -15, y: 1, z: 0}
     second:
       serializedVersion: 2
@@ -417,6 +424,8 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+=======
+>>>>>>> origin/minigame/trafficrush
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
@@ -435,6 +444,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: f79461e4d21838747a2e461204dd12c5, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 3387f58ca6b68eb4ba9f3a63fe6cd0ef, type: 2}
+<<<<<<< HEAD
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 298b2696dfd5a2c418cda8fd6aad36e3, type: 2}
   - m_RefCount: 1
@@ -485,6 +495,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 856229f8bfc30cc458e81fca2f7be0f2, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: e5f6bd8625074e24bb8ae59567ad6968, type: 2}
+=======
+>>>>>>> origin/minigame/trafficrush
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 5896211973522755178, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
@@ -502,6 +514,7 @@ Tilemap:
     m_Data: {fileID: 6390139476082957634, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 8526048775071062769, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
+<<<<<<< HEAD
   - m_RefCount: 1
     m_Data: {fileID: 1066294863423698009, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
   - m_RefCount: 1
@@ -554,6 +567,10 @@ Tilemap:
     m_Data: {fileID: -2340526776452649935, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 33
+=======
+  m_TileMatrixArray:
+  - m_RefCount: 8
+>>>>>>> origin/minigame/trafficrush
     m_Data:
       e00: 1
       e01: 0
@@ -572,13 +589,22 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< HEAD
   - m_RefCount: 33
+=======
+  - m_RefCount: 8
+>>>>>>> origin/minigame/trafficrush
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
   m_Origin: {x: -17, y: -4, z: 0}
   m_Size: {x: 13, y: 13, z: 1}
+=======
+  m_Origin: {x: -12, y: -1, z: 0}
+  m_Size: {x: 4, y: 2, z: 1}
+>>>>>>> origin/minigame/trafficrush
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -650,7 +676,11 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+<<<<<<< HEAD
 --- !u!114 &6597430794573411386
+=======
+--- !u!114 &5249819451953282725
+>>>>>>> origin/minigame/trafficrush
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
