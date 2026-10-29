@@ -2832,8 +2832,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-=======
->>>>>>> origin/minigame/trafficrush
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
@@ -2972,7 +2970,6 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 0230c03fd359e2d4bb21e52d30f2ddf9, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 1b6a7c38e20d0404296f0ff3ab3276ad, type: 2}
-<<<<<<< HEAD
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 84f216182c0066c4bbea1ea878d12e32, type: 2}
   - m_RefCount: 1
@@ -3532,7 +3529,6 @@ Tilemap:
     m_Data: {fileID: -3393311792599043978, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 6063359866685732961, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
-<<<<<<< HEAD
   - m_RefCount: 1
     m_Data: {fileID: 778136270091268006, guid: 9a2008f84f76bb14fa53565d9e435f4c, type: 3}
   - m_RefCount: 1
