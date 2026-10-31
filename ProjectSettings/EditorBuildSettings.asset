@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Traffic Rush/Scenes/Main Level.unity
+    guid: 1eb0652035cf5d04da867b02a20888fe
+  - enabled: 1
+    path: Assets/Traffic Rush/Scenes/Fired.unity
+    guid: fbf1b5ba18c3b1a47a1e6fa182fb79b7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
